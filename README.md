@@ -19,9 +19,9 @@ To start the server
 - then after select any video `(file will be only mp4|mpeg-4 and size 10MB Only)`
 - And Send the request.
 
-##For Streaming the video
+## For Streaming the video
 -After uploading a video
 -Go to localhost:5500/ to stream the video
 
-##For Dowloading the video
+## For Dowloading the video
 -Go to localhost:5500/download 
