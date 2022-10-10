@@ -8,8 +8,8 @@ const app = express();
 app.use(uploadVid);
 evs.addVideo("video", "./video/song.mp4");
 app.use(evs.middleware);
-const videoName = "song.mp4";
-const filePath = path.join(__dirname, "video", videoName);
+const videoName = "song.mp4";   //Video to be downloaded
+const filePath = path.join(__dirname, "video", videoName);  //The path of video
 
 app.get("/", (req, res) => {
   var page = fs.readFileSync(path.join(__dirname, "./index.html")); // Load html into buffer
